@@ -1,0 +1,45 @@
+name: Daily Fresh 40
+
+on:
+  schedule:
+    # 06:00 UTC daily
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Refresh Fresh 40
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+          SPOTIFY_REDIRECT_URI: http://127.0.0.1:8787/callback
+          SPOTIFY_MARKET: ${{ vars.SPOTIFY_MARKET }}
+        run: npm run refresh
+
+      - name: Commit run summary
+        run: |
+          git config user.name "spotify-fresh-bot"
+          git config user.email "spotify-fresh-bot@users.noreply.github.com"
+          git add runs/latest.json
+          if git diff --staged --quiet; then
+            echo "No summary changes"
+          else
+            git commit -m "chore: daily Fresh 40 refresh $(date -u +%Y-%m-%d)"
+            git push
+          fi

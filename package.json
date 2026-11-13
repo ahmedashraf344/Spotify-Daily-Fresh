@@ -1,0 +1,32 @@
+{
+  "name": "spotify-fresh",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Mac Spotify agent + daily Fresh 40 playlist refresh",
+  "scripts": {
+    "login": "tsx src/cli.ts login",
+    "refresh": "tsx src/cli.ts refresh",
+    "status": "tsx src/cli.ts status",
+    "search": "tsx src/cli.ts search",
+    "build": "tsc --noEmit",
+    "agent:validate": "npx --yes @grok/agent-sdk@0.6.0 validate --dir .",
+    "agent:serve": "npx --yes @grok/agent-sdk@0.6.0 serve --dir . --mode single --dev",
+    "agent:run": "npx --yes @grok/agent-sdk@0.6.0 run --dir . --message"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@grok/agent-sdk": "^0.6.0",
+    "dotenv": "^16.6.1",
+    "open": "^10.2.0",
+    "yaml": "^2.8.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}

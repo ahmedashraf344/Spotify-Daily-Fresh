@@ -1,0 +1,26 @@
+# Search packs used when Recommendations / Browse APIs are unavailable.
+# Each query is sent to Spotify Search (type=track).
+packs:
+  pop:
+    - year:2025-2026 genre:pop
+    - year:2025-2026 genre:dance pop
+    - viral pop hits
+    - new pop singles
+  arabic:
+    - arabic pop 2025
+    - arabic pop 2026
+    - egyptian pop new
+    - khaleeji pop new
+    - levant pop new
+    - arabic indie alternative
+  trending:
+    - viral hits 2026
+    - trending pop worldwide
+    - chart toppers 2026
+    - tiktok viral songs
+  variety:
+    - year:2025-2026 genre:indie
+    - year:2025-2026 genre:r&b
+    - year:2025-2026 genre:electronic
+    - year:2025-2026 genre:alt-pop
+    - year:2025-2026 genre:afrobeats

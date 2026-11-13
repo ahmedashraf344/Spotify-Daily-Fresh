@@ -1,0 +1,7 @@
+# Optional public / your playlist IDs to sample from.
+# Add Spotify playlist IDs (22-char) after you copy them from Spotify share links.
+# Example: https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M → 37i9dQZF1DXcBWIGoYBM5M
+#
+# Note: Spotify-owned editorial playlists may be blocked for new API apps.
+# Prefer playlists you own or public user playlists.
+playlists: []
