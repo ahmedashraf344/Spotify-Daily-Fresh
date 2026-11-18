@@ -4,9 +4,7 @@ import { QUERIES_PATH, SOURCE_PLAYLISTS_PATH } from "./config.js";
 import {
   getArtistTopOrAlbumsTracks,
   getPlaylistTracks,
-  getRecentlyPlayed,
   getTopArtists,
-  getTopTracks,
   searchTracks,
 } from "./spotify.js";
 import type { SpotifyTrack } from "./types.js";
@@ -48,17 +46,12 @@ export async function collectCandidates(): Promise<{
     }
   };
 
-  console.log("Fetching taste signals…");
-  const [topTracks, topArtists, recent] = await Promise.all([
-    getTopTracks("short_term", 20),
-    getTopArtists("medium_term", 15),
-    getRecentlyPlayed(20),
-  ]);
-  pushAll(topTracks, "taste");
-  pushAll(recent, "taste");
+  // Taste is used only to expand artists — not as candidates (those are "known").
+  console.log("Fetching taste signals (artists only)…");
+  const topArtists = await getTopArtists("medium_term", 20);
 
   console.log(`Expanding ${topArtists.length} top artists…`);
-  for (const artist of topArtists.slice(0, 12)) {
+  for (const artist of topArtists.slice(0, 15)) {
     try {
       const tracks = await getArtistTopOrAlbumsTracks(artist.id, artist.name);
       pushAll(tracks, "artist");
@@ -72,7 +65,7 @@ export async function collectCandidates(): Promise<{
   for (const [pack, list] of Object.entries(queries.packs ?? {})) {
     for (const q of list) {
       try {
-        const tracks = await searchTracks(q, `search:${pack}`, 8);
+        const tracks = await searchTracks(q, `search:${pack}`, 10);
         pushAll(tracks, `search:${pack}`);
       } catch (e) {
         console.warn(`Search failed for "${q}":`, e);

@@ -11,10 +11,15 @@ dotenv.config({ path: join(root, ".env") });
 export const ROOT = root;
 export const TOKENS_PATH = join(root, ".tokens.json");
 export const RUNS_LATEST_PATH = join(root, "runs", "latest.json");
+export const BLOCK_HISTORY_PATH = join(root, "runs", "block-history.json");
 export const QUERIES_PATH = join(root, "config", "queries.yaml");
 export const SOURCE_PLAYLISTS_PATH = join(root, "config", "source-playlists.yaml");
 
 export const FRESH_LIMIT = 40;
+/** Keep this many past refresh IDs so songs don't rotate back too soon. */
+export const BLOCK_HISTORY_DAYS = 14;
+/** Legacy + current Fresh playlist name prefixes to exclude. */
+export const FRESH_NAME_PREFIXES = ["Fresh 40"];
 
 /** The three daily playlists. */
 export const PLAYLISTS = {

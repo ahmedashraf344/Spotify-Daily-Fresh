@@ -87,8 +87,14 @@ export async function getRecentlyPlayed(limit = 30): Promise<SpotifyTrack[]> {
     .filter((t): t is SpotifyTrack => t != null);
 }
 
-export async function getSavedTrackIds(maxPages = 10): Promise<Set<string>> {
-  const ids = new Set<string>();
+export async function getSavedTrackIds(maxPages = 20): Promise<Set<string>> {
+  const tracks = await getSavedTracks(maxPages);
+  return new Set(tracks.map((t) => t.id));
+}
+
+/** Full liked tracks (for fingerprint blocking, not just IDs). */
+export async function getSavedTracks(maxPages = 20): Promise<SpotifyTrack[]> {
+  const out: SpotifyTrack[] = [];
   let url: string | null = `/me/tracks?limit=50`;
   let pages = 0;
   while (url && pages < maxPages) {
@@ -97,13 +103,35 @@ export async function getSavedTrackIds(maxPages = 10): Promise<Set<string>> {
       next: string | null;
     } = await api(url);
     for (const item of data.items ?? []) {
-      const id = item.track?.id;
-      if (typeof id === "string") ids.add(id);
+      if (!item.track) continue;
+      const mapped = mapTrack(item.track, "library:liked");
+      if (mapped) out.push(mapped);
     }
     url = data.next;
     pages++;
   }
-  return ids;
+  return out;
+}
+
+/** All playlists whose name starts with any of the prefixes. */
+export async function findPlaylistsByNamePrefixes(
+  prefixes: string[],
+): Promise<Array<{ id: string; name: string }>> {
+  const found: Array<{ id: string; name: string }> = [];
+  let url: string | null = `/me/playlists?limit=50`;
+  while (url) {
+    const data: {
+      items: Array<{ id: string; name: string }>;
+      next: string | null;
+    } = await api(url);
+    for (const p of data.items ?? []) {
+      if (prefixes.some((pre) => p.name.startsWith(pre))) {
+        found.push({ id: p.id, name: p.name });
+      }
+    }
+    url = data.next;
+  }
+  return found;
 }
 
 export async function searchTracks(
