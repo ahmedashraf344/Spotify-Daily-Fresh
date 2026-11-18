@@ -1,0 +1,5 @@
+{"index":0,"sessionId":"ses_e4b86994248ad97489db2e0a","at":"2026-11-13T19:31:07.348Z","type":"session.started","data":{"channelId":"http"}}
+{"index":1,"sessionId":"ses_e4b86994248ad97489db2e0a","turnId":"turn_1","at":"2026-11-13T19:31:07.350Z","type":"message.received","data":{"text":"Refresh my Fresh 40 playlist wtih english songs only  ","deliveryIds":["dlv_3ab0a113bbd4c7148de8ce90"]}}
+{"index":2,"sessionId":"ses_e4b86994248ad97489db2e0a","turnId":"turn_1","at":"2026-11-13T19:31:07.351Z","type":"turn.started","data":{}}
+{"index":3,"sessionId":"ses_e4b86994248ad97489db2e0a","turnId":"turn_1","at":"2026-11-13T19:31:07.369Z","type":"turn.failed","data":{"status":"error","message":"node:sqlite is not available in this runtime. The default local agent store requires Node >= 22.13 (or another runtime that implements node:sqlite). Configure a JsonlLocalAgentStore instead."}}
+{"index":4,"sessionId":"ses_e4b86994248ad97489db2e0a","turnId":"turn_1","at":"2026-11-13T19:31:07.369Z","type":"session.waiting","data":{}}

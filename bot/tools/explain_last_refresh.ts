@@ -4,7 +4,7 @@ import { readLastSummary } from "../../src/refresh.js";
 
 export default defineTool({
   description:
-    "Explain the last Fresh 40 refresh from runs/latest.json (no Spotify API call).",
+    "Explain the last Fresh refresh from runs/latest.json (all three playlists).",
   effect: "read",
   inputSchema: z.object({}),
   async execute() {
@@ -18,11 +18,14 @@ export default defineTool({
     return {
       found: true,
       date: summary.date,
-      playlistUrl: summary.playlistUrl,
-      trackCount: summary.trackCount,
-      sources: summary.sources,
-      topArtists: summary.topArtists,
-      sample: summary.tracks.slice(0, 10),
+      playlists: (summary.playlists ?? []).map((p) => ({
+        name: p.name,
+        playlistUrl: p.playlistUrl,
+        trackCount: p.trackCount,
+        topArtists: p.topArtists,
+        sample: p.tracks.slice(0, 5),
+      })),
+      totalTracks: summary.trackCount,
     };
   },
 });

@@ -4,35 +4,41 @@ import { refreshFresh40 } from "../../src/refresh.js";
 
 export default defineTool({
   description:
-    "Rebuild the Spotify playlist Fresh 40 · Daily from taste + trending search packs. Takes up to ~1–2 minutes.",
+    "Rebuild all three Spotify playlists: Fresh 40 · English, Fresh 40 · Arabic, Fresh 40 · Random. Takes ~1–2 minutes.",
   effect: "write",
   inputSchema: z.object({
     confirm: z
       .boolean()
-      .describe("Set true to confirm rebuilding the playlist."),
+      .describe("Set true to confirm rebuilding all three playlists."),
   }),
   async execute({ confirm }, ctx) {
     if (!confirm) {
-      return { ok: false, error: "Pass confirm=true to rebuild Fresh 40." };
+      return { ok: false, error: "Pass confirm=true to rebuild the Fresh playlists." };
     }
     if (ctx.session.purpose === "eval") {
       return {
         ok: true,
         eval: true,
-        playlistUrl: "https://open.spotify.com/playlist/eval",
-        trackCount: 40,
+        playlists: [
+          { name: "Fresh 40 · English", trackCount: 40 },
+          { name: "Fresh 40 · Arabic", trackCount: 40 },
+          { name: "Fresh 40 · Random", trackCount: 40 },
+        ],
       };
     }
     const summary = await refreshFresh40();
     return {
       ok: true,
       date: summary.date,
-      playlistId: summary.playlistId,
-      playlistUrl: summary.playlistUrl,
-      trackCount: summary.trackCount,
-      sources: summary.sources,
-      topArtists: summary.topArtists,
-      sample: summary.tracks.slice(0, 8),
+      playlists: summary.playlists.map((p) => ({
+        key: p.key,
+        name: p.name,
+        playlistUrl: p.playlistUrl,
+        trackCount: p.trackCount,
+        topArtists: p.topArtists.slice(0, 5),
+        sample: p.tracks.slice(0, 5),
+      })),
+      totalTracks: summary.trackCount,
     };
   },
 });

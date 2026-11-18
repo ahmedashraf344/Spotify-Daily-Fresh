@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { loginInteractive } from "./auth.js";
-import { PLAYLIST_NAME } from "./config.js";
+import { PLAYLISTS } from "./config.js";
 import { refreshFresh40, readLastSummary } from "./refresh.js";
 import { findPlaylistByName, searchTracks } from "./spotify.js";
 
@@ -17,19 +17,16 @@ async function main() {
     }
     case "status": {
       const last = readLastSummary();
-      const live = await findPlaylistByName(PLAYLIST_NAME).catch(() => null);
-      console.log(
-        JSON.stringify(
-          {
-            playlistName: PLAYLIST_NAME,
-            livePlaylistId: live?.id ?? null,
-            liveUrl: live?.external_urls?.spotify ?? null,
-            lastRun: last,
-          },
-          null,
-          2,
-        ),
-      );
+      const live = [];
+      for (const def of Object.values(PLAYLISTS)) {
+        const p = await findPlaylistByName(def.name).catch(() => null);
+        live.push({
+          name: def.name,
+          id: p?.id ?? null,
+          url: p?.external_urls?.spotify ?? null,
+        });
+      }
+      console.log(JSON.stringify({ playlists: live, lastRun: last }, null, 2));
       break;
     }
     case "search": {
@@ -54,12 +51,17 @@ async function main() {
       break;
     }
     default:
-      console.log(`Spotify Fresh Agent
+      console.log(`Spotify Daily Fresh
+
+Playlists:
+  - ${PLAYLISTS.english.name}
+  - ${PLAYLISTS.arabic.name}
+  - ${PLAYLISTS.random.name}
 
 Usage:
   npm run login              Connect Spotify (browser OAuth)
-  npm run refresh            Rebuild "${PLAYLIST_NAME}"
-  npm run status             Show playlist + last run
+  npm run refresh            Rebuild all 3 Fresh 40 playlists
+  npm run status             Show playlists + last run
   npm run search -- "query"  Search tracks
 
 GitHub Actions uses the same refresh command with secrets.`);

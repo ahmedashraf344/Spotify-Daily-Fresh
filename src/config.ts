@@ -14,8 +14,31 @@ export const RUNS_LATEST_PATH = join(root, "runs", "latest.json");
 export const QUERIES_PATH = join(root, "config", "queries.yaml");
 export const SOURCE_PLAYLISTS_PATH = join(root, "config", "source-playlists.yaml");
 
-export const PLAYLIST_NAME = "Fresh 40 · Daily";
 export const FRESH_LIMIT = 40;
+
+/** The three daily playlists. */
+export const PLAYLISTS = {
+  english: {
+    key: "english" as const,
+    name: "Fresh 40 · English",
+    lane: "english" as const,
+  },
+  arabic: {
+    key: "arabic" as const,
+    name: "Fresh 40 · Arabic",
+    lane: "arabic" as const,
+  },
+  random: {
+    key: "random" as const,
+    name: "Fresh 40 · Random",
+    lane: "random" as const,
+  },
+};
+
+export type PlaylistKey = keyof typeof PLAYLISTS;
+
+/** @deprecated use PLAYLISTS — kept for older call sites */
+export const PLAYLIST_NAME = PLAYLISTS.english.name;
 
 export function env(name: string, fallback = ""): string {
   return (process.env[name] ?? fallback).trim();

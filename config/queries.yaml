@@ -1,6 +1,13 @@
 # Search packs used when Recommendations / Browse APIs are unavailable.
 # Each query is sent to Spotify Search (type=track).
 packs:
+  english:
+    - year:2025-2026 genre:pop
+    - year:2025-2026 genre:dance pop
+    - year:2025-2026 genre:indie pop
+    - new english pop singles
+    - viral english pop hits
+    - uk us chart pop 2026
   pop:
     - year:2025-2026 genre:pop
     - year:2025-2026 genre:dance pop
@@ -13,6 +20,7 @@ packs:
     - khaleeji pop new
     - levant pop new
     - arabic indie alternative
+    - arabic rap new
   trending:
     - viral hits 2026
     - trending pop worldwide
@@ -24,3 +32,10 @@ packs:
     - year:2025-2026 genre:electronic
     - year:2025-2026 genre:alt-pop
     - year:2025-2026 genre:afrobeats
+  random:
+    - year:2025-2026 genre:hyperpop
+    - year:2025-2026 genre:k-pop
+    - year:2025-2026 genre:latin
+    - year:2025-2026 genre:house
+    - deep cuts indie 2026
+    - unexpected viral songs

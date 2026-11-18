@@ -1,8 +1,10 @@
-# Spotify Fresh Agent
+# Spotify Daily Fresh
 
-Mac chat agent + CLI that rebuilds a single Spotify playlist:
+Mac chat agent + CLI that rebuilds **three** Spotify playlists every day:
 
-**`Fresh 40 · Daily`**
+- **`Fresh 40 · English`** — English-leaning only  
+- **`Fresh 40 · Arabic`** — Arabic / MENA only  
+- **`Fresh 40 · Random`** — surprise / variety mix  
 
 Daily GitHub Action runs the same refresh.
 
@@ -29,7 +31,7 @@ This agent uses **search packs + your top artists/tracks + optional playlist IDs
    npm install
    npm run login
    ```
-5. Open Spotify → playlists → **Fresh 40 · Daily** after the first refresh.
+5. Open Spotify → playlists → **Fresh 40 · English / Arabic / Random** after the first refresh.
 
 ### GitHub Actions secrets
 
