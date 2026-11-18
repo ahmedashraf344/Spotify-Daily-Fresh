@@ -7,3 +7,4 @@ dist/
 *.log
 .cache/
 .state/
+.agent-serve/
