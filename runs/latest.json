@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-27",
+  "date": "2026-11-28",
   "playlists": [
     {
       "key": "english",
@@ -8,219 +8,218 @@
       "playlistUrl": "https://open.spotify.com/playlist/1B0dTRgQLHQL4IywpaUHO0",
       "trackCount": 40,
       "sources": {
-        "search": 33,
-        "artist": 7
+        "search": 40
       },
       "topArtists": [
-        "shallow waters123",
-        "Stray Kids",
-        "Drake",
-        "Lana Del Rey",
-        "Sickboyrari",
-        "Tate McRae",
-        "ADÉLA",
-        "BTS"
+        "Vella Volt",
+        "Krim2Gwer",
+        "Keke Palmer",
+        "Young Thug",
+        "Newcleus",
+        "Juice Newton",
+        "Chappell Roan",
+        "Tove Lo"
       ],
       "tracks": [
         {
-          "id": "3sYiXvFfvWNEoKgNccdB4f",
-          "name": "416",
-          "artists": "shallow waters123"
+          "id": "6v2p6SNP7HMLlQThb7L20m",
+          "name": "Titanium Tint",
+          "artists": "Vella Volt"
         },
         {
-          "id": "62xU1NllqWBCbkZFTXEqzF",
-          "name": "CEREMONY",
-          "artists": "Stray Kids"
+          "id": "0h1CEsErPDLKDRnNlmAmpW",
+          "name": "DEMI LOVATO",
+          "artists": "Krim2Gwer"
         },
         {
-          "id": "61S79KIVA4I9FXbnsylEHT",
-          "name": "In The Bible (with Lil Durk & Giveon)",
-          "artists": "Drake, Lil Durk, GIVĒON"
+          "id": "3A0EExIejKgOgPtaPv64oM",
+          "name": "Hood Anthem",
+          "artists": "Keke Palmer"
         },
         {
-          "id": "2oYbXLPGYQvSv6RjSh6t7R",
-          "name": "This Is What Makes Us Girls",
-          "artists": "Lana Del Rey"
+          "id": "3JEHTXTL3Ha4kOQB2e7Rq8",
+          "name": "Hot (Remix) [feat. Gunna and Travis Scott]",
+          "artists": "Young Thug, Travis Scott, Gunna"
         },
         {
-          "id": "797l6rwhbFuoZvFCvTJT6V",
-          "name": "Princess Cuts My Wrist",
-          "artists": "Sickboyrari, Krisu"
+          "id": "52a2N1oGrdAfGc6K46SDeb",
+          "name": "Jam on It - Rerecorded",
+          "artists": "Newcleus"
         },
         {
-          "id": "2sFepQNyl1WjpROruP8bJ0",
-          "name": "Housewife",
-          "artists": "Tate McRae"
+          "id": "5zHrAd8VRfwuFAQhYWIy6b",
+          "name": "Break It to Me Gently - Rerecorded",
+          "artists": "Juice Newton"
         },
         {
-          "id": "6U9VpmP3dEinuezxCJ2Zg9",
-          "name": "Ain't In LA",
-          "artists": "ADÉLA"
+          "id": "1k2T7rRpk0UaYv6ZKgblLF",
+          "name": "HOT TO GO!",
+          "artists": "Chappell Roan"
         },
         {
-          "id": "68lbSrXDORS51pmyjZv712",
-          "name": "SWIM",
-          "artists": "BTS"
+          "id": "4h3tY2zV4easaHEAbHVmgj",
+          "name": "Blood In Your Eyes (from GTAVI: The Album)",
+          "artists": "Tove Lo, Grand Theft Auto VI"
         },
         {
-          "id": "4YMsS8OqXICdQXF5HNUxFq",
-          "name": "make you mine",
-          "artists": "Madison Beer"
-        },
-        {
-          "id": "6c2ZcdXHkEFdsNArdJXrHX",
-          "name": "Mi Chico - Official - Jason Derulo x Melody",
-          "artists": "DJ Goja, Jason Derulo, Melody"
-        },
-        {
-          "id": "7aYGCP34Xo6XujY7Ix1DxB",
-          "name": "Girl Like Me",
-          "artists": "PinkPantheress"
-        },
-        {
-          "id": "09VMgxIhiWqEyI9JQQIr55",
-          "name": "Melatonin",
-          "artists": "Tinashe"
-        },
-        {
-          "id": "5IMpnpD0tQVcqWlVIgtAtV",
-          "name": "iloveitiloveitiloveit",
-          "artists": "Bella Kay"
-        },
-        {
-          "id": "4AajxCEwGEsmHmT4H1TwjY",
-          "name": "undressed",
-          "artists": "sombr"
-        },
-        {
-          "id": "0kIPg6d7Eua4ApmD8T5zgS",
-          "name": "Sprinter",
-          "artists": "Dave, Central Cee"
-        },
-        {
-          "id": "0dl7gKsFn8eb78zJ0Pghi9",
-          "name": "I Want to Push You in Front of the Subway",
-          "artists": "Benjamin Hightower"
-        },
-        {
-          "id": "3qKunud9sySc8qvQ3i84og",
-          "name": "Conceited",
-          "artists": "Flo Milli"
-        },
-        {
-          "id": "6Pjzy9avwlVr4UAbxkQQmh",
-          "name": "NEW DANCE",
-          "artists": "XG"
-        },
-        {
-          "id": "6ZCyDN2ArlWB4GKAj644Cd",
-          "name": "Strangelove",
-          "artists": "Depeche Mode"
-        },
-        {
-          "id": "3PwP6EYIGpE87iXiNVKSJY",
-          "name": "Rap God",
-          "artists": "Eminem"
-        },
-        {
-          "id": "6VDw2mGBIa4csypjOhS6JT",
-          "name": "Suzuki (from GTAVI: The Album)",
-          "artists": "Fuerza Regida, Grand Theft Auto VI"
-        },
-        {
-          "id": "5TFD2bmFKGhoCRbX61nXY5",
-          "name": "NUEVAYoL",
-          "artists": "Bad Bunny"
-        },
-        {
-          "id": "0ytgwF282jWaH1rtTsJMgc",
-          "name": "Sabbath Deep Cuts",
-          "artists": "Jake Whiskin"
-        },
-        {
-          "id": "39RaBjECbclDMDBKFqD6g4",
-          "name": "Unexpected Arrival",
-          "artists": "Viralnoise"
-        },
-        {
-          "id": "4ExzJp2wYKB0EJNn7h1Xfl",
-          "name": "When I say the wrong way.\"Unexpected Tap Dance:SUP",
-          "artists": "Roblox Songs By Supatra & Lung$"
-        },
-        {
-          "id": "5JVsXrPUsRaxnbyJRt50a1",
-          "name": "Charlie Brown",
-          "artists": "Masego"
-        },
-        {
-          "id": "2OZVskV28xxJjjhQqKTLSg",
-          "name": "PIXELATED KISSES",
-          "artists": "Joji"
-        },
-        {
-          "id": "3htoQPC7v5x04gWCQz1y2S",
-          "name": "WRONG",
-          "artists": "Chris Grey"
-        },
-        {
-          "id": "4jyyma8YdFC4S4llusSFRu",
-          "name": "butterflies.",
-          "artists": "Brent Faiyaz"
-        },
-        {
-          "id": "554p4ro2rs7dHqGPwQX67H",
-          "name": "Some of Your Love",
-          "artists": "PARTYNEXTDOOR"
-        },
-        {
-          "id": "5UDv726vPnY2diGOkY1DkS",
-          "name": "Where Have You Been (Orchestra)",
-          "artists": "Lune, mikeeysmind, Unjaps"
-        },
-        {
-          "id": "5PpKLAXKlYNQxRAjb9iR3Q",
-          "name": "i just wanna be loved",
-          "artists": "kobzx2z, mikeeysmind"
-        },
-        {
-          "id": "7gKxCvTDWwV9wBhdeBbr3l",
-          "name": "Nice To Each Other",
-          "artists": "Olivia Dean"
-        },
-        {
-          "id": "0T3Hw3kPj9T2E4UoaSXmfn",
-          "name": "Disease",
+          "id": "2LHNTC9QZxsL3nWpt8iaSR",
+          "name": "Abracadabra",
           "artists": "Lady Gaga"
         },
         {
-          "id": "05uDwnKRAq49VpJ5bQxVej",
-          "name": "Brooklyn Cowboy",
-          "artists": "PHNK"
+          "id": "70cHKK8bHAfJrOGVnfRG9J",
+          "name": "Nicole Kidman",
+          "artists": "ADÉLA"
         },
         {
-          "id": "0SZCRqAyGbZnWL928bNbzP",
-          "name": "QUANTUM 2.0",
-          "artists": "PHNKR, dnvn, Phonk King"
+          "id": "3ouNEk0tv5TTi8VWMe1xbX",
+          "name": "Animal",
+          "artists": "KATSEYE"
         },
         {
-          "id": "0Vuktzz3NuWpdpz8uSc3xx",
-          "name": "MONTAGEM VAZIO",
-          "artists": "Wendeng Music, MC LONE, Phonk King"
+          "id": "514joG57v4yKTsfQmz7stz",
+          "name": "Janice STFU",
+          "artists": "Drake"
         },
         {
-          "id": "56aKrg5BYm9umhIjhvlpGL",
-          "name": "Void's Verse",
-          "artists": "Nahh Chill, Aqua Scholar"
+          "id": "1DwscornXpj8fmOmYVlqZt",
+          "name": "Stateside + Zara Larsson",
+          "artists": "PinkPantheress, Zara Larsson"
         },
         {
-          "id": "1nhVDMBQl3C7HHSNqaHKAC",
-          "name": "Radiant Oceans",
-          "artists": "Sonic Strokes, Nahh Chill, Aqua Scholar"
+          "id": "6ZlcrIoq09FEuJsunjY7kx",
+          "name": "Dream of You",
+          "artists": "TalkinToys"
         },
         {
-          "id": "7DY756WOLyOz2Xnhw4EFiC",
-          "name": "São Paulo (feat. Anitta)",
-          "artists": "The Weeknd, Anitta"
+          "id": "1CSAUEapYQQOD50ardFG0K",
+          "name": "Glide",
+          "artists": "NEIKED, Portugal. The Man"
+        },
+        {
+          "id": "1DpC4L3JjsGRW7y6eTHaMj",
+          "name": "Ojos Tristes (with The Marías)",
+          "artists": "Selena Gomez, benny blanco, The Marías"
+        },
+        {
+          "id": "4E0P1xs3JNmsNr5c5nFTZJ",
+          "name": "Back To Me",
+          "artists": "The Marías"
+        },
+        {
+          "id": "51TCxtQ1u4Qi655ekjDCZD",
+          "name": "Feel It",
+          "artists": "d4vd"
+        },
+        {
+          "id": "2XUx8PCXGpP1XhZJMGiUol",
+          "name": "Chest Pain (I Love)",
+          "artists": "Malcolm Todd"
+        },
+        {
+          "id": "6KLKTjhp0Vygt12gmXhMaK",
+          "name": "Peace - Single Version",
+          "artists": "Depeche Mode"
+        },
+        {
+          "id": "1BNkpfoVtLa5xZDloCNBle",
+          "name": "WHERE YOU AT",
+          "artists": "Cal Scruby"
+        },
+        {
+          "id": "1IEC9rLQTBhZrPYLVRlS6X",
+          "name": "Wraith Talk",
+          "artists": "Tory Lanez"
+        },
+        {
+          "id": "1v4oUcBKuqooIQyqv8aHXD",
+          "name": "Love Me Not",
+          "artists": "Ravyn Lenae"
+        },
+        {
+          "id": "1ruCgTQkMd15XtEnNgCW7I",
+          "name": "Woman",
+          "artists": "Doja Cat"
+        },
+        {
+          "id": "6B1cSdvCgearJ7KivDW276",
+          "name": "NEW DROP",
+          "artists": "Don Toliver"
+        },
+        {
+          "id": "4FVoWJyaTtanKhKkPCgWRf",
+          "name": "Dawly",
+          "artists": "El Waili, Moscow"
+        },
+        {
+          "id": "1YW3R3FQErby9pVeEJENKX",
+          "name": "ALT POP",
+          "artists": "Chad Kowal"
+        },
+        {
+          "id": "1X9kEJ1M3ZxcGdckUbb47w",
+          "name": "Friendly Fire",
+          "artists": "Skepta"
+        },
+        {
+          "id": "0WWj46dMV65NwHTGfurLZJ",
+          "name": "Little Dark Age",
+          "artists": "MGMT"
+        },
+        {
+          "id": "6hcmhvAK3ANwSwb6g5dk10",
+          "name": "Sweater Weather",
+          "artists": "The Neighbourhood"
+        },
+        {
+          "id": "0KlV4dMk7ciYT4GfMMQhJv",
+          "name": "El Waat El Daye3",
+          "artists": "Lege-Cy"
+        },
+        {
+          "id": "3XYHmR1VSj0QLzGcOtsQgu",
+          "name": "This Is Who I Am",
+          "artists": "Celeste"
+        },
+        {
+          "id": "6J5kc12BW5HuP3d7C3vvx8",
+          "name": "EoO",
+          "artists": "Bad Bunny"
+        },
+        {
+          "id": "2oOtzWzQrHPmvtMAzoms7Q",
+          "name": "Macacoa 2000",
+          "artists": "Rauw Alejandro"
+        },
+        {
+          "id": "1FXksRH3lFxHPlBauolc3C",
+          "name": "Dame Hombro",
+          "artists": "Bulin 47, Kevin Wai, Breyco En Producidera"
+        },
+        {
+          "id": "4NiSSIrUefyxvwYEEH1CQK",
+          "name": "Ride or Die, Pt. 2",
+          "artists": "Sevdaliza, Villano Antillano, Tokischa"
+        },
+        {
+          "id": "1aXLwQcE70KET9Qc0wdURd",
+          "name": "La Cheyenne",
+          "artists": "El De Las R's"
+        },
+        {
+          "id": "3BaKLTlA5X7ApOxDMSZtoY",
+          "name": "Circe",
+          "artists": "Zak Azoury"
+        },
+        {
+          "id": "0s3Czbu8IxpmIgmKe3GGBE",
+          "name": "On My Own",
+          "artists": "Mara Mandeau"
+        },
+        {
+          "id": "37SFoH8yiBmz71A4QebSqD",
+          "name": "Bad News",
+          "artists": "Stellar, Black Gryph0n, Baasik"
         }
       ]
     },
@@ -229,136 +228,211 @@
       "name": "Fresh 40 · Arabic",
       "playlistId": "0ktXoiyF4EuPbuuPSFdreX",
       "playlistUrl": "https://open.spotify.com/playlist/0ktXoiyF4EuPbuuPSFdreX",
-      "trackCount": 23,
+      "trackCount": 38,
       "sources": {
-        "search": 17,
-        "artist": 6
+        "search": 36,
+        "artist": 2
       },
       "topArtists": [
         "TUL8TE",
-        "حمو المرشدي",
         "Amr Diab",
+        "POL1Z1STENS0HN a.k.a. Jan Böhmermann",
+        "Afroto",
+        "حمو المرشدي",
         "Cairokee",
-        "Wegz",
-        "Aliyah's Interlude",
-        "AngryGPT",
-        "JFonse"
+        "Tamer Ashour",
+        "okazy"
       ],
       "tracks": [
         {
-          "id": "0g9uhQ0VxM6ATwuOwaxshA",
-          "name": "Seneen",
+          "id": "0Bcrb7ZOOxkVgcZEtPWxXy",
+          "name": "Wala Ash Wala Kan",
           "artists": "TUL8TE"
         },
         {
-          "id": "20bwjMLtBeWBu5AGvyUoKJ",
-          "name": "Brand New",
-          "artists": "Aliyah's Interlude"
-        },
-        {
-          "id": "3kUm7sKO4R34lxXjudXTsl",
-          "name": "Datemi 3 minuti",
-          "artists": "AngryGPT"
-        },
-        {
-          "id": "41QGGNHeeVblgbfAPWi2nF",
-          "name": "Me Levante Corrido VeVo",
-          "artists": "JFonse"
-        },
-        {
-          "id": "2BZEyUbJijlfjH3s2BRh27",
-          "name": "Fakra",
-          "artists": "Massar Egbari"
-        },
-        {
-          "id": "6RmmmaAr4yQfKVsAyt7dE3",
-          "name": "Intro",
-          "artists": "TheVill"
-        },
-        {
-          "id": "15WRWgiuNlB0cVJk3WST1c",
-          "name": "wonder why",
-          "artists": "Veintiuno, Caspr"
-        },
-        {
-          "id": "4tGk0Xc3XguZCLFTYqkMJ3",
-          "name": "15 Hikaya",
-          "artists": "Soulja, هدى عربي"
-        },
-        {
-          "id": "5c3hT0pyCPmAoELs7hBQFv",
-          "name": "SLV",
-          "artists": "Shabjdeed, SMOKAHOLIC"
-        },
-        {
-          "id": "4mXaqUDh3iEZHhXMEO2qkq",
-          "name": "Habbatal Aheb",
-          "artists": "Elissa"
-        },
-        {
-          "id": "50a2GGMcmDCMKTo73OppNW",
-          "name": "Seket Leh",
-          "artists": "Ramy Sabry"
-        },
-        {
-          "id": "53iDi4N6iDqVoeT76A2r4e",
-          "name": "استفدت ايه بكبريائك",
-          "artists": "Essam Sasa"
-        },
-        {
-          "id": "0ZGmHDAUSgGV5mCUbtYFe7",
-          "name": "Matafetch",
-          "artists": "Marwan Pablo"
-        },
-        {
-          "id": "58FNOZG0cfPdnnqTPdjirs",
-          "name": "Deep",
-          "artists": "Abyusif"
-        },
-        {
-          "id": "1Zmrw5oVwBk8JSMols6Ihw",
-          "name": "اخوك جايبها م الصفر",
-          "artists": "حمو المرشدي"
-        },
-        {
-          "id": "2wBWtiIjpbKjIZGHHi00WY",
-          "name": "Getlak",
-          "artists": "Amr Diab"
-        },
-        {
-          "id": "7E863iGSkYQun3qCKtbywu",
-          "name": "Fel Khetam",
+          "id": "43D4HrgNzOW3DOf5Skp7wg",
+          "name": "Nesena",
           "artists": "Cairokee"
         },
         {
-          "id": "45VAehAOjOWbZ4XdyYAKEl",
-          "name": "El Shai Ya Baba",
-          "artists": "Wegz"
+          "id": "1USbWLw8UB5MhStSAubNS9",
+          "name": "Kalmoha Anni",
+          "artists": "Tamer Ashour"
         },
         {
-          "id": "7t2pto2Td9oldo7aGOft4n",
-          "name": "Shedeeny",
-          "artists": "TUL8TE"
+          "id": "0uk7WWlKzGaQuR23PVzItw",
+          "name": "GINP",
+          "artists": "okazy, J2un"
         },
         {
-          "id": "0VUbQwTUNShOmpcidJclhq",
-          "name": "طب دا كلام ياطيري",
+          "id": "09dY8fITZvIQ4eoDEMm26Y",
+          "name": "Arm Candy",
+          "artists": "Chrissy"
+        },
+        {
+          "id": "1WcGJSwCYONtBXGQr2Pxqk",
+          "name": "2025",
+          "artists": "Denzel Snake"
+        },
+        {
+          "id": "24LUN74iE4uayqwWJ2b5wl",
+          "name": "No Air - Radio Mix",
+          "artists": "Che Jose"
+        },
+        {
+          "id": "3G8KOPoJaxcpyXrx324e7F",
+          "name": "Khaleeny Ganbak",
+          "artists": "Amr Diab"
+        },
+        {
+          "id": "3bmpXHVie1GTy37OkXJ7Vc",
+          "name": "2.0",
+          "artists": "BTS"
+        },
+        {
+          "id": "160pEuFoT79CDoQf4q4MDv",
+          "name": "EKDEB W OUL",
+          "artists": "Khaled Ali"
+        },
+        {
+          "id": "1McVvMN7yYTseeRYCNV8bL",
+          "name": "Levantate",
+          "artists": "Eric Joel & Yohaira"
+        },
+        {
+          "id": "4SKNm1EtLWaEycfRTokxBj",
+          "name": "Loco por Ti Jesús",
+          "artists": "Vino Nuevo Oficial"
+        },
+        {
+          "id": "2r1AOTzMMk8q8BIYtPunBi",
+          "name": "Yumain O Leila",
+          "artists": "Jadal"
+        },
+        {
+          "id": "3RuWfEaCNaU63WnRqmZbNi",
+          "name": "Queen of the Underground",
+          "artists": "Flunk"
+        },
+        {
+          "id": "5x83cAFPqTeugnaCILS4hW",
+          "name": "Recht kommt (K.O... in KA)",
+          "artists": "POL1Z1STENS0HN a.k.a. Jan Böhmermann, Justice"
+        },
+        {
+          "id": "1tlmuUeTOItH2jLZC3dp7g",
+          "name": "Adagio's Founder Tribute",
+          "artists": "Adagio"
+        },
+        {
+          "id": "6glykQmkaWREO1ilhFDh7k",
+          "name": "dudka beat",
+          "artists": "фрози, whyslow"
+        },
+        {
+          "id": "4n2ARd9DsS7klFm9q0GyS4",
+          "name": "10th chance",
+          "artists": "Baby Cute"
+        },
+        {
+          "id": "02CX6jUkKsOZufeh0tI1yi",
+          "name": "El Rap Ghayarni",
+          "artists": "Lil Baba, Abyusif, Abo El Anwar"
+        },
+        {
+          "id": "6ctaPVnYjdO4mm3QPBsrmX",
+          "name": "7AQIBA",
+          "artists": "Afroto"
+        },
+        {
+          "id": "6nqWPOw5bed5ceN99keEYK",
+          "name": "5msat",
+          "artists": "Arsenik, Abyusif, Ahmed Santa"
+        },
+        {
+          "id": "6fFZ4DCB5UUderlc6P1p1S",
+          "name": "tour life",
+          "artists": "Lex Amarni"
+        },
+        {
+          "id": "0g3janyD1y1gpnCLP7YO56",
+          "name": "ما تسألنيش | ريد بُل مزيكا صالونات",
+          "artists": "Karim Osama, Molotof, Ghaliaa, Red Bull Sika"
+        },
+        {
+          "id": "30BVCYVCWMSDNrWPBfNPuq",
+          "name": "ТВОЯ МАТЬ",
+          "artists": "Saùdion, GATASKI, ucolowa"
+        },
+        {
+          "id": "6zbWWyyqhSfQEB6CNaUicJ",
+          "name": "LiFE 4 A LiFE",
+          "artists": "IDK, Pusha T"
+        },
+        {
+          "id": "5xNid5HMyCKUZWmEXO4LkE",
+          "name": "sing that song",
+          "artists": "zandros"
+        },
+        {
+          "id": "7dSuejOoW3Xt1IG9lfGoWp",
+          "name": "PAID THE PRICE",
+          "artists": "Jay Starr"
+        },
+        {
+          "id": "6UBh9pYUlj3dO1L8vJGIIo",
+          "name": "WOW (with A$AP Rocky)",
+          "artists": "Kid Cudi, A$AP Rocky"
+        },
+        {
+          "id": "7tQxEN6xSkPvnL1kPFB9Bj",
+          "name": "Never Going Back!",
+          "artists": "Phoebe Bridgers"
+        },
+        {
+          "id": "50Rb6alaDZvC0ZTm3CfVXo",
+          "name": "عشان بحبك",
+          "artists": "Amr Mostafa, حمو المرشدي, Wezza Montaser"
+        },
+        {
+          "id": "4fxldwxdslbbrh9ZOwQCO5",
+          "name": "الولا حمو جه",
           "artists": "حمو المرشدي"
         },
         {
-          "id": "3ptVro4saZIK2M6J8fIoEg",
-          "name": "Khatfoony",
-          "artists": "Amr Diab, Orange, Jana Diab"
-        },
-        {
-          "id": "6gjUxA4kTiQadHyRvCyD0Q",
-          "name": "Mot Leh",
-          "artists": "Cairokee, Sary Hany"
-        },
-        {
-          "id": "1Q1BtmfMhRbzZ6uPV3Xk1r",
-          "name": "Bad Days",
+          "id": "2rc9bqGbOob4s0wcPUWK6b",
+          "name": "El Hazz",
           "artists": "Wegz"
+        },
+        {
+          "id": "1QSCmmgw4FNQzaOFB9vaJI",
+          "name": "Haneish",
+          "artists": "TUL8TE, Elyanna"
+        },
+        {
+          "id": "4xSmsihDhLmXNkA7ZBmXJZ",
+          "name": "Recht kommt (K.O... in KA) - Cleaned Version",
+          "artists": "POL1Z1STENS0HN a.k.a. Jan Böhmermann, Justice"
+        },
+        {
+          "id": "12rHSwbhU1T2xn9tkajac1",
+          "name": "2025",
+          "artists": "ZAF"
+        },
+        {
+          "id": "0ux9ahOLCr8BVREw1637ss",
+          "name": "Supreme",
+          "artists": "Afroto, حمو المرشدي, Coolpix"
+        },
+        {
+          "id": "6SB8UDaW6ieaNNjRY7iPn5",
+          "name": "اركب الدبابه",
+          "artists": "حمو المرشدي"
+        },
+        {
+          "id": "4sq8gdPwKqBlFCJ8uy9LkZ",
+          "name": "El Alwan",
+          "artists": "Amr Diab"
         }
       ]
     },
@@ -367,307 +441,367 @@
       "name": "Fresh 40 · Random",
       "playlistId": "5bJOymtpZCIr9qjEY90fMl",
       "playlistUrl": "https://open.spotify.com/playlist/5bJOymtpZCIr9qjEY90fMl",
-      "trackCount": 28,
+      "trackCount": 40,
       "sources": {
-        "search": 7,
-        "artist": 21
+        "search": 27,
+        "artist": 13
       },
       "topArtists": [
-        "TUL8TE",
-        "Ghostly Kisses",
-        "Nahh Chill",
         "حمو المرشدي",
-        "VERTYGO",
-        "Charli xcx",
-        "Anders Falkvard",
-        "Amr Diab"
+        "TUL8TE",
+        "PIXY",
+        "UGLYpupPEZ",
+        "Goal Vibes",
+        "ARM Magical Soundscape",
+        "Temper City",
+        "Con Ech Xanh"
       ],
       "tracks": [
         {
-          "id": "6sACI6FLN0fX29yTCfdtdZ",
-          "name": "Sebeeny",
+          "id": "6wQj5jDPLhoGE09HZFcRlo",
+          "name": "El Lahza Di - Jazz Edition, Live",
           "artists": "TUL8TE"
         },
         {
-          "id": "4qhjMOu1aupustfuL9lIvL",
-          "name": "BRING ME BACK TO LIFE",
-          "artists": "Chris Grey, Allegra Jordyn"
+          "id": "4ZjAfdKKRfibE5gVDkDCWs",
+          "name": "LEGACY",
+          "artists": "PIXY"
         },
         {
-          "id": "15nElWknZsgnSIfVihVCQf",
-          "name": "DIVINE",
-          "artists": "Stray Kids"
+          "id": "0aDBnIiiwctQRHnjxqF0JC",
+          "name": "Red Pill Bark",
+          "artists": "UGLYpupPEZ"
         },
         {
-          "id": "7dHIywNfaaVqyC4wV9zMd6",
-          "name": "Ease Your Mind",
-          "artists": "Ghostly Kisses"
+          "id": "5crHvGm2lfUhyyxFZtTxJl",
+          "name": "Colombia vs Uzbekistan",
+          "artists": "Goal Vibes"
         },
         {
-          "id": "5tQA6N9wnUjH81jfX0GeLI",
-          "name": "Supernova Sonata",
-          "artists": "Nahh Chill, Aqua Scholar, Mey Andog"
+          "id": "0s3sGmiYsAI9tWiV6jXy7w",
+          "name": "Unexpected news",
+          "artists": "ARM Magical Soundscape"
         },
         {
-          "id": "1SlkuMxp4E6SpZCrSSK1iH",
-          "name": "صباحك بيور",
+          "id": "51QCjotlVaiOxwXzlA4gza",
+          "name": "لاعبت الكبار",
           "artists": "حمو المرشدي"
         },
         {
-          "id": "3qrTll9OQ9wcejTxPFY0qg",
-          "name": "The Line - from the series Arcane League of Legends",
-          "artists": "Twenty One Pilots, Arcane, League of Legends"
+          "id": "0SN26lNl4kDUjil8Z7yLjq",
+          "name": "Reverse Psychology",
+          "artists": "Temper City"
         },
         {
-          "id": "36HPG2G4BEo9lFQ9lqQleU",
-          "name": "Blue Skies and Gentle Winds",
-          "artists": "Sonic Strokes, Nahh Chill, Aqua Scholar"
+          "id": "2Qc3oA5t05uhbCc7X1mZnF",
+          "name": "Unexpected Viral Video Story",
+          "artists": "Con Ech Xanh"
         },
         {
-          "id": "2lTm559tuIvatlT1u0JYG2",
-          "name": "BAILE INoLVIDABLE",
+          "id": "6sGIMrtIzQjdzNndVxe397",
+          "name": "So Easy (To Fall In Love)",
+          "artists": "Olivia Dean"
+        },
+        {
+          "id": "0yp3TvJNlG50Q4tAHWNCRm",
+          "name": "Enjoy the Silence",
+          "artists": "Depeche Mode"
+        },
+        {
+          "id": "4Jsus7N4d8hFB2G9gcRdBv",
+          "name": "NOBLE",
+          "artists": "F3miii"
+        },
+        {
+          "id": "6SBni17Jkrxzkc27ufK0Ec",
+          "name": "Habeitek",
+          "artists": "Amr Diab"
+        },
+        {
+          "id": "5EgvIjKtyop4T8afkuMiv6",
+          "name": "Bite Marks",
+          "artists": "League of Legends, TEYA"
+        },
+        {
+          "id": "1PS9KaNbnSggKcR1TelUHA",
+          "name": "FIRESTARTER",
+          "artists": "K/DA, League of Legends, i-dle, Mimi Webb, Sophie Powers, MIYEON, SOYEON"
+        },
+        {
+          "id": "2iOKMCvIUuekNonIJHDDKi",
+          "name": "WHEREVER YOU ARE",
+          "artists": "Chase Atlantic"
+        },
+        {
+          "id": "5N1vVGIJMVXsZCdLbZD1sv",
+          "name": "These Are The Days",
+          "artists": "Blakhat"
+        },
+        {
+          "id": "6dWilYAxP2aJbTTt0UsatK",
+          "name": "Lover Girl",
+          "artists": "Laufey"
+        },
+        {
+          "id": "3BntzKsnLf2pc0dsvE3Zav",
+          "name": "Bad Dreams",
+          "artists": "Teddy Swims"
+        },
+        {
+          "id": "1ZHvGQZNz6HLbxhAtu7pin",
+          "name": "Ma Meilleure Ennemie ft. Coldplay",
+          "artists": "Stromae, Pomme, Coldplay, Elyanna, Arcane, League of Legends"
+        },
+        {
+          "id": "5Q4IGbHiua8uVqhu7aZX6y",
+          "name": "虛華的夢想是一支刀",
+          "artists": "黃奇斌"
+        },
+        {
+          "id": "1UymCJrYWtsFFg70YUvh6K",
+          "name": "Superscar",
+          "artists": "ADÉLA"
+        },
+        {
+          "id": "6d3ACkFjIeLuRwIlfFhGBH",
+          "name": "TOO CLOSE",
+          "artists": "VERTYGO"
+        },
+        {
+          "id": "1nrcOk69lyFLSrwBOWY4Iu",
+          "name": "Clear Skies",
+          "artists": "Aqua Scholar"
+        },
+        {
+          "id": "3sK8wGT43QFpWrvNQsrQya",
+          "name": "DtMF",
           "artists": "Bad Bunny"
         },
         {
-          "id": "0lqi5RdOSYvYlNlG7lfzdY",
-          "name": "FAR AWAY",
-          "artists": "VERTYGO"
+          "id": "1RZ5RvaCDmohTcCOmWmErO",
+          "name": "So proud",
+          "artists": "Cece Natalie"
         },
         {
-          "id": "4wTvw1dBiPXNiHTh0zzpcI",
-          "name": "B2b",
-          "artists": "Charli xcx"
+          "id": "7MaVZbUwKYg8peygKN50KS",
+          "name": "Big V Freestyle",
+          "artists": "2DK Voni"
         },
         {
-          "id": "2fRwTLgO1cJoTz1O0179VG",
-          "name": "stille",
-          "artists": "Anders Falkvard, Aqua Scholar"
+          "id": "45hqhPCcVugOrp8YBZH2y6",
+          "name": "Pluto's Prelude",
+          "artists": "Nahh Chill, Aqua Scholar"
         },
         {
-          "id": "2lsOYw7k6kxj0OURBF2iyo",
-          "name": "Deep Blue Reflections",
-          "artists": "Aqua Scholar, Mey Andog, Sonic Strokes"
+          "id": "1r5pHkAEoGNGgVk9x3KyEx",
+          "name": "Unexpected Realizationz",
+          "artists": "Viralnoise, Sean Duff"
         },
         {
-          "id": "1cRKVlvPbl9d5NHgqFnobM",
-          "name": "Ana Maak",
-          "artists": "Amr Diab"
+          "id": "3BUc2A0MJ53FHwiy3eohBt",
+          "name": "Nobody New",
+          "artists": "The Marías"
         },
         {
-          "id": "7aSKEDux894NVSshtbGGKK",
-          "name": "QUANTUM - Super Slowed",
+          "id": "3s2YCL5LHLzXWbw7ezQru3",
+          "name": "Know My Name",
+          "artists": "True Damage, League of Legends, Sofía Reyes, VIC MENSA, Coco Jones, SOYEON, i-dle"
+        },
+        {
+          "id": "5Ij2rHvymdJwxs5B8Bi21I",
+          "name": "Medusa",
+          "artists": "Zak Azoury"
+        },
+        {
+          "id": "7B4ah84D3y1KvVVhePynPm",
+          "name": "LUMINOUS - Slowed",
           "artists": "PHNKR, dnvn, Phonk King"
         },
         {
-          "id": "77uAqjyh3R6haTQMvhT1o6",
-          "name": "WATCH ME",
-          "artists": "K/DA, League of Legends, Mimi Webb, Sophie Powers"
+          "id": "2fudERIZrBL0glivkAdzco",
+          "name": "Leak It",
+          "artists": "FLO"
         },
         {
-          "id": "0NnW908WqSeRtJzKB84f5j",
-          "name": "Ana Bakbr",
-          "artists": "Cairokee, Sary Hany"
+          "id": "3Ggrf13afYb41oxbnpafPR",
+          "name": "LET ME BE",
+          "artists": "The Second Voice"
         },
         {
-          "id": "0FIDCNYYjNvPVimz5icugS",
-          "name": "Timeless (feat Playboi Carti)",
-          "artists": "The Weeknd, Playboi Carti"
+          "id": "3AWDeHLc88XogCaCnZQLVI",
+          "name": "Cry For Me",
+          "artists": "The Weeknd"
         },
         {
-          "id": "2plbrEY59IikOBgBGLjaoe",
-          "name": "Die With A Smile",
-          "artists": "Lady Gaga, Bruno Mars"
+          "id": "6fuVQuXh7Bq4eMKUT994dd",
+          "name": "vintage vuitton",
+          "artists": "earfzilla"
         },
         {
-          "id": "3W3l9Cgum7TTH6lv9hnXWL",
-          "name": "Heseeny - Jazz Edition, Live",
-          "artists": "TUL8TE"
-        },
-        {
-          "id": "0axmjZtW10RSaYgyOdL976",
-          "name": "DISAPPEAR",
-          "artists": "VERTYGO"
-        },
-        {
-          "id": "2lLBXnu9xIPx2JIsiRqon1",
-          "name": "طول منا عالي طول منا ناجح",
-          "artists": "حمو المرشدي"
-        },
-        {
-          "id": "4w2GLmK2wnioVnb5CPQeex",
-          "name": "360",
-          "artists": "Charli xcx"
-        },
-        {
-          "id": "6iU8LE4QWwIANfmSfP9LTQ",
-          "name": "Ordinary, Extraordinary",
+          "id": "2qcUkJNcshIcKE0vK8hasl",
+          "name": "On & Off",
           "artists": "Ghostly Kisses"
         },
         {
-          "id": "0XCOl2znGgNjWQwdHAXp3K",
-          "name": "still damp",
-          "artists": "Anders Falkvard, Aqua Scholar"
+          "id": "7qfEO62ZKlWit7Z1JIwsk9",
+          "name": "Gentle Ocean",
+          "artists": "Sonic Strokes, Nahh Chill, Aqua Scholar"
         },
         {
-          "id": "1B8TYlzWhPYnx70Q84E0Iv",
-          "name": "Solar Flare's Fury",
-          "artists": "Nahh Chill, Aqua Scholar, Mey Andog"
+          "id": "7srqyRb5plksW5k65itXDB",
+          "name": "Girl, so confusing featuring lorde",
+          "artists": "Charli xcx, Lorde"
         },
         {
-          "id": "1VawDhjszocdZx8KldZzUr",
-          "name": "Gheyabo Fara'",
-          "artists": "Amr Diab"
-        },
-        {
-          "id": "5ZDKPFRZC6QlJpf8bCIXTs",
-          "name": "The Abyss (feat. Lana Del Rey)",
-          "artists": "The Weeknd, Lana Del Rey"
+          "id": "53yHQHDCami5nI7IFKx6U0",
+          "name": "كوكب النسيان",
+          "artists": "حمو المرشدي"
         }
       ]
     }
   ],
   "playlistId": "1B0dTRgQLHQL4IywpaUHO0",
   "playlistUrl": "https://open.spotify.com/playlist/1B0dTRgQLHQL4IywpaUHO0",
-  "trackCount": 91,
+  "trackCount": 118,
   "sources": {
     "english": 40,
-    "arabic": 23,
-    "random": 28
+    "arabic": 38,
+    "random": 40
   },
   "topArtists": [
-    "shallow waters123",
-    "Stray Kids",
-    "Drake",
-    "Lana Del Rey",
-    "Sickboyrari",
-    "Tate McRae",
-    "ADÉLA",
-    "BTS",
+    "Vella Volt",
+    "Krim2Gwer",
+    "Keke Palmer",
+    "Young Thug",
+    "Newcleus",
+    "Juice Newton",
+    "Chappell Roan",
+    "Tove Lo",
     "TUL8TE",
-    "حمو المرشدي",
     "Amr Diab",
-    "Cairokee"
+    "POL1Z1STENS0HN a.k.a. Jan Böhmermann",
+    "Afroto"
   ],
   "tracks": [
     {
-      "id": "3sYiXvFfvWNEoKgNccdB4f",
-      "name": "416",
-      "artists": "shallow waters123"
+      "id": "6v2p6SNP7HMLlQThb7L20m",
+      "name": "Titanium Tint",
+      "artists": "Vella Volt"
     },
     {
-      "id": "62xU1NllqWBCbkZFTXEqzF",
-      "name": "CEREMONY",
-      "artists": "Stray Kids"
+      "id": "0h1CEsErPDLKDRnNlmAmpW",
+      "name": "DEMI LOVATO",
+      "artists": "Krim2Gwer"
     },
     {
-      "id": "61S79KIVA4I9FXbnsylEHT",
-      "name": "In The Bible (with Lil Durk & Giveon)",
-      "artists": "Drake, Lil Durk, GIVĒON"
+      "id": "3A0EExIejKgOgPtaPv64oM",
+      "name": "Hood Anthem",
+      "artists": "Keke Palmer"
     },
     {
-      "id": "2oYbXLPGYQvSv6RjSh6t7R",
-      "name": "This Is What Makes Us Girls",
-      "artists": "Lana Del Rey"
+      "id": "3JEHTXTL3Ha4kOQB2e7Rq8",
+      "name": "Hot (Remix) [feat. Gunna and Travis Scott]",
+      "artists": "Young Thug, Travis Scott, Gunna"
     },
     {
-      "id": "797l6rwhbFuoZvFCvTJT6V",
-      "name": "Princess Cuts My Wrist",
-      "artists": "Sickboyrari, Krisu"
+      "id": "52a2N1oGrdAfGc6K46SDeb",
+      "name": "Jam on It - Rerecorded",
+      "artists": "Newcleus"
     },
     {
-      "id": "2sFepQNyl1WjpROruP8bJ0",
-      "name": "Housewife",
-      "artists": "Tate McRae"
+      "id": "5zHrAd8VRfwuFAQhYWIy6b",
+      "name": "Break It to Me Gently - Rerecorded",
+      "artists": "Juice Newton"
     },
     {
-      "id": "6U9VpmP3dEinuezxCJ2Zg9",
-      "name": "Ain't In LA",
+      "id": "1k2T7rRpk0UaYv6ZKgblLF",
+      "name": "HOT TO GO!",
+      "artists": "Chappell Roan"
+    },
+    {
+      "id": "4h3tY2zV4easaHEAbHVmgj",
+      "name": "Blood In Your Eyes (from GTAVI: The Album)",
+      "artists": "Tove Lo, Grand Theft Auto VI"
+    },
+    {
+      "id": "2LHNTC9QZxsL3nWpt8iaSR",
+      "name": "Abracadabra",
+      "artists": "Lady Gaga"
+    },
+    {
+      "id": "70cHKK8bHAfJrOGVnfRG9J",
+      "name": "Nicole Kidman",
       "artists": "ADÉLA"
     },
     {
-      "id": "68lbSrXDORS51pmyjZv712",
-      "name": "SWIM",
-      "artists": "BTS"
+      "id": "3ouNEk0tv5TTi8VWMe1xbX",
+      "name": "Animal",
+      "artists": "KATSEYE"
     },
     {
-      "id": "4YMsS8OqXICdQXF5HNUxFq",
-      "name": "make you mine",
-      "artists": "Madison Beer"
+      "id": "514joG57v4yKTsfQmz7stz",
+      "name": "Janice STFU",
+      "artists": "Drake"
     },
     {
-      "id": "6c2ZcdXHkEFdsNArdJXrHX",
-      "name": "Mi Chico - Official - Jason Derulo x Melody",
-      "artists": "DJ Goja, Jason Derulo, Melody"
+      "id": "1DwscornXpj8fmOmYVlqZt",
+      "name": "Stateside + Zara Larsson",
+      "artists": "PinkPantheress, Zara Larsson"
     },
     {
-      "id": "7aYGCP34Xo6XujY7Ix1DxB",
-      "name": "Girl Like Me",
-      "artists": "PinkPantheress"
+      "id": "6ZlcrIoq09FEuJsunjY7kx",
+      "name": "Dream of You",
+      "artists": "TalkinToys"
     },
     {
-      "id": "09VMgxIhiWqEyI9JQQIr55",
-      "name": "Melatonin",
-      "artists": "Tinashe"
+      "id": "1CSAUEapYQQOD50ardFG0K",
+      "name": "Glide",
+      "artists": "NEIKED, Portugal. The Man"
     },
     {
-      "id": "5IMpnpD0tQVcqWlVIgtAtV",
-      "name": "iloveitiloveitiloveit",
-      "artists": "Bella Kay"
+      "id": "1DpC4L3JjsGRW7y6eTHaMj",
+      "name": "Ojos Tristes (with The Marías)",
+      "artists": "Selena Gomez, benny blanco, The Marías"
     },
     {
-      "id": "4AajxCEwGEsmHmT4H1TwjY",
-      "name": "undressed",
-      "artists": "sombr"
+      "id": "4E0P1xs3JNmsNr5c5nFTZJ",
+      "name": "Back To Me",
+      "artists": "The Marías"
     },
     {
-      "id": "0kIPg6d7Eua4ApmD8T5zgS",
-      "name": "Sprinter",
-      "artists": "Dave, Central Cee"
+      "id": "51TCxtQ1u4Qi655ekjDCZD",
+      "name": "Feel It",
+      "artists": "d4vd"
     },
     {
-      "id": "0dl7gKsFn8eb78zJ0Pghi9",
-      "name": "I Want to Push You in Front of the Subway",
-      "artists": "Benjamin Hightower"
+      "id": "2XUx8PCXGpP1XhZJMGiUol",
+      "name": "Chest Pain (I Love)",
+      "artists": "Malcolm Todd"
     },
     {
-      "id": "3qKunud9sySc8qvQ3i84og",
-      "name": "Conceited",
-      "artists": "Flo Milli"
-    },
-    {
-      "id": "6Pjzy9avwlVr4UAbxkQQmh",
-      "name": "NEW DANCE",
-      "artists": "XG"
-    },
-    {
-      "id": "6ZCyDN2ArlWB4GKAj644Cd",
-      "name": "Strangelove",
+      "id": "6KLKTjhp0Vygt12gmXhMaK",
+      "name": "Peace - Single Version",
       "artists": "Depeche Mode"
     },
     {
-      "id": "3PwP6EYIGpE87iXiNVKSJY",
-      "name": "Rap God",
-      "artists": "Eminem"
+      "id": "1BNkpfoVtLa5xZDloCNBle",
+      "name": "WHERE YOU AT",
+      "artists": "Cal Scruby"
     },
     {
-      "id": "6VDw2mGBIa4csypjOhS6JT",
-      "name": "Suzuki (from GTAVI: The Album)",
-      "artists": "Fuerza Regida, Grand Theft Auto VI"
+      "id": "1IEC9rLQTBhZrPYLVRlS6X",
+      "name": "Wraith Talk",
+      "artists": "Tory Lanez"
     },
     {
-      "id": "5TFD2bmFKGhoCRbX61nXY5",
-      "name": "NUEVAYoL",
-      "artists": "Bad Bunny"
+      "id": "1v4oUcBKuqooIQyqv8aHXD",
+      "name": "Love Me Not",
+      "artists": "Ravyn Lenae"
     },
     {
-      "id": "0ytgwF282jWaH1rtTsJMgc",
-      "name": "Sabbath Deep Cuts",
-      "artists": "Jake Whiskin"
-    },
-    {
-      "id": "39RaBjECbclDMDBKFqD6g4",
-      "name": "Unexpected Arrival",
-      "artists": "Viralnoise"
+      "id": "1ruCgTQkMd15XtEnNgCW7I",
+      "name": "Woman",
+      "artists": "Doja Cat"
     }
   ]
 }
